@@ -3,11 +3,7 @@ module.exports = function () {
     content: [
       './app/**/*.{js,jsx,ts,tsx}',
       '../../interface/**/*.{js,jsx,ts,tsx}',
-      '../desktop/src/renderer/**/*.{js,jsx,ts,tsx,html}',
-      './src/renderer/index.html',
-      './src/renderer/**/*.{js,ts,jsx,tsx}',
-      './node_modules/flowbite/**/*.js',
-      '../../interface/**/*.{js,jsx,ts,tsx}'
+      './node_modules/@xaeon/interface/**/*.{js,jsx,ts,tsx}'
     ],
     theme: {
       fontFamily: {
