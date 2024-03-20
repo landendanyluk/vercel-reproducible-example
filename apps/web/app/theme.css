@@ -1,0 +1,13 @@
+:root {
+  --font-work-sans: 'Work Sans', sans-serif;
+  --font-oswald: 'Oswald', sans-serif;
+  --navigation-height: 4rem;
+
+  --xaeon-pink: 231 117 251;
+  --xaeon-purple: 82 73 222;
+  --foreground: 255 255 255;
+  --foreground-muted: 168 168 168;
+  --background-darker: 22 22 22;
+  --background: 35 35 35;
+  --sky-blue: 62 146 204;
+}

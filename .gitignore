@@ -1,0 +1,10 @@
+node_modules
+dist
+out
+*.log*
+.DS_Store
+._DS_Store
+.env
+apps/web/build/
+apps/web/public/build/
+.cache/

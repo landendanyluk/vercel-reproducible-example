@@ -1,0 +1,42 @@
+{
+  "name": "xaeon",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "interface"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-transition-group": "^4.4.9",
+    "electron": "^25.9.3",
+    "prettier": "^3.0.3"
+  },
+  "scripts": {
+    "web:dev": "npm run dev --workspace=@xaeon/web",
+    "web:build": "npm run build --workspace=@xaeon/web",
+    "web:start": "npm run start --workspace=@xaeon/web"
+  },
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@gsap/react": "^2.0.2",
+    "@typescript-eslint/parser": "^5.62.0",
+    "axios": "^1.5.0",
+    "eslint": "^8.48.0",
+    "gsap": "^3.12.4",
+    "install": "^0.13.0",
+    "node-downloader-helper": "^2.1.9",
+    "npm": "^10.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-fast-marquee": "^1.6.2",
+    "react-hotkeys-hook": "^4.4.1",
+    "react-router-dom": "6.22.2",
+    "tailwindcss": "^3.3.3",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.2.2"
+  }
+}
