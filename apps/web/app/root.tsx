@@ -4,8 +4,8 @@ import { cssBundleHref } from '@remix-run/css-bundle'
 import type { LinksFunction } from '@remix-run/node'
 import { Links, LiveReload, Meta, Scripts, ScrollRestoration } from '@remix-run/react'
 
-import styles from 'tailwind.css'
-import themeStyles from './theme.css'
+import styles from '~/tailwind.css'
+import themeStyles from '~/theme.css'
 
 export const links: LinksFunction = () => [
   ...(cssBundleHref ? [{ rel: 'stylesheet', href: cssBundleHref }] : []),
