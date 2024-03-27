@@ -5,7 +5,7 @@ out
 .DS_Store
 ._DS_Store
 .env
-apps/web/build/
-apps/web/public/build/
-.cache/
+apps/web/build
+apps/web/public/build
+.cache
 .vercel
